@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Notice Board</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        /* Header */
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Notice Board Container */
+        .notice-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 30px;
+            justify-content: center;
+        }
+
+        /* Notice Card */
+        .notice-card {
+            background-color: white;
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .notice-card h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        .date {
+            font-size: 14px;
+            color: gray;
+            margin-bottom: 10px;
+        }
+
+        .notice-card p {
+            font-size: 14px;
+        }
+
+        .btn {
+            margin-top: 15px;
+            padding: 8px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>ABC College - Notice Board</h1>
+    </div>
+
+    <div class="notice-container">
+
+        <div class="notice-card">
+            <h3>Semester Exam Schedule</h3>
+            <div class="date">Posted on: 10 Feb 2026</div>
+            <p>The semester examination timetable has been published. 
+               Students are requested to check the official website.</p>
+            <button class="btn">Read More</button>
+        </div>
+
+        <div class="notice-card">
+            <h3>Workshop on AI</h3>
+            <div class="date">Posted on: 08 Feb 2026</div>
+            <p>A one-day workshop on Artificial Intelligence will be conducted 
+               in the seminar hall on 15th February.</p>
+            <button class="btn">Read More</button>
+        </div>
+
+        <div class="notice-card">
+            <h3>Sports Day Announcement</h3>
+            <div class="date">Posted on: 05 Feb 2026</div>
+            <p>Annual Sports Day will be celebrated next month. 
+               Interested students can register with the sports coordinator.</p>
+            <button class="btn">Read More</button>
+        </div>
+
+        <div class="notice-card">
+            <h3>Placement Drive</h3>
+            <div class="date">Posted on: 02 Feb 2026</div>
+            <p>Top IT companies will visit our campus for placement. 
+               Final year students must register before 20th February.</p>
+            <button class="btn">Read More</button>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        © 2026 ABC College | All Rights Reserved
+    </div>
+
+</body>
+</html>
